@@ -6,23 +6,23 @@
 
 # 界面展示：
 # 主界面
-![image](https://github.com/connect-inver/things_in_flower/blob/master/x1.PNG) 
+![image](https://github.com/connect-inver/things_in_flower/blob/master/x1.jpg) 
 
 主界面由日历为主题，点开每一天可获得每一天的详细日程  
 # 日程展示界面  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/1.PNG)
+![image](https://github.com/connect-inver/things_in_flower/blob/master/1.jpg)
 
 展示界面下方有一个圆圆的编辑按钮，可以通过它添加今天的日程  
 # 心情展示界面  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/x2.PNG)
+![image](https://github.com/connect-inver/things_in_flower/blob/master/x2.jpg)
 
 此界面显示了用户过往写过的所有心情，下方也有编辑按钮一枚  
 # 编辑心情界面  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/2.PNG)
+![image](https://github.com/connect-inver/things_in_flower/blob/master/2.jpg)
 
 此界面可以编辑心情，第一篇心情可以为自己种下一颗种子，写作5-6天心情后获得花朵  
 # ‘我的’界面，展示收集的花  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/x3.PNG)
+![image](https://github.com/connect-inver/things_in_flower/blob/master/x3.jpg)
 
 此界面中间圆中显示用户的头像，周围展示用户已收集的花  
 
