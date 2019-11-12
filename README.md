@@ -5,26 +5,32 @@
 这里是你的时间和事件管家，为你提供日常事项标注、查询日历、今日日程等等服务。
 
 # 界面展示：
-# 主界面
-![image](https://github.com/connect-inver/things_in_flower/blob/master/x1.jpg) 
+# “明天”
+![image](https://github.com/connect-inver/things_in_flower/blob/master/1.png) 
 
-主界面由日历为主题，点开每一天可获得每一天的详细日程  
-# 日程展示界面  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/1.jpg)
+在"明天"界面中，来安排一天的时间规划吧~通过星星对每一个安排进行评级，星星颗数越多代表重要程度越高。
+确认计划后将同步到"今天"，Let's do it!
+（左滑可以添加或删除时间安排，时间范围可自行设定。）    
+# “今天”  
+![image](https://github.com/connect-inver/things_in_flower/blob/master/2.png)
 
-展示界面下方有一个圆圆的编辑按钮，可以通过它添加今天的日程  
-# 心情展示界面  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/x2.jpg)
+在"今天"界面中，也可以更改时间记录，可以不必在规定的时间进行记录哦~   
+这是试用界面：  
+![image](https://github.com/connect-inver/things_in_flower/blob/master/6.jpg)  
+# 数据统计界面  
+![image](https://github.com/connect-inver/things_in_flower/blob/master/5.jpg)
 
-此界面显示了用户过往写过的所有心情，下方也有编辑按钮一枚  
-# 编辑心情界面  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/2.jpg)
+此界面显示了一个月以来用户填写的每日日程重要程度评级，为用户直观地展示自己已完成的事项。   
+# 设置界面  
+![image](https://github.com/connect-inver/things_in_flower/blob/master/3.png)
 
-此界面可以编辑心情，第一篇心情可以为自己种下一颗种子，写作5-6天心情后获得花朵  
-# ‘我的’界面，展示收集的花  
-![image](https://github.com/connect-inver/things_in_flower/blob/master/x3.jpg)
+此界面显示了使用者的头像，可以实现自定义模板（可以快速输入每日日程）并阅读使用说明。  
+# 自定义模板界面  
+![image](https://github.com/connect-inver/things_in_flower/blob/master/4.jpg)
 
-此界面中间圆中显示用户的头像，周围展示用户已收集的花  
+# 使用说明界面  
+![image](https://github.com/connect-inver/things_in_flower/blob/master/7.jpg)  
+
 
 
 
