@@ -1,0 +1,9 @@
+<!--setting.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view bindtap="addTemplate" class="option"><image src="../../image/template.png" class="iconPre"></image>自定义模板<image src="../../image/right.png" class="right"></image></view>
+  <view bindtap="introduce" class="option"><image src="../../image/info.png" class="iconPre"></image>使用说明<image src="../../image/right.png" class="right"></image></view>
+</view>

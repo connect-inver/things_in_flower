@@ -1,0 +1,145 @@
+/*tomorrow.wxss*/
+.container {
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+}
+.scrollBox {
+  height: 100%;
+}
+.title {
+    text-align: center;
+    padding-top: 30rpx;    
+    margin-bottom: 30rpx;
+    font-size: 45rpx;
+}
+.title text {
+    padding-bottom: 10rpx;
+    text-align: center;
+    padding: 0 40rpx 10rpx;    
+}
+.timeBox {
+  margin-bottom: 20rpx;
+  padding-top: 20rpx;
+  display: inline-block;
+}
+.time {
+  display: inline-block;
+}
+picker {
+  display: inline-block;
+}
+.left input {
+  font-size: 40rpx;
+  height: 45rpx;
+  width: 80%;
+}
+.left {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  height: 100%;
+  transition: 0.2s;
+}
+.right {
+  position: absolute;
+  top: 0;
+  transition: 0.2s;
+}
+.add {
+  display: inline-block;
+  width: 160rpx;
+  line-height: 150rpx;
+  background: #90CFF0;
+  color: #fff;
+  text-align: center;
+}
+.del {
+  display: inline-block;
+  width: 150rpx;
+  line-height: 150rpx;
+  background: #e7413e;
+  color: #fff;
+  text-align: center;
+}
+.container image {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 20rpx;
+}
+.star_first {
+  right: 180rpx;
+}
+.star_second {
+  right: 110rpx;
+}
+.star_third {
+  right: 40rpx;
+}
+.btnBox {
+  display: flex;
+  justify-content: space-around;
+}
+.confirm {
+  margin: 50rpx 0;
+  background-color: #90CFF0;
+  color: #fff;  
+  font-size: 40rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.confirm-hover text:after{
+  left: 50rpx;
+  opacity: 1;
+}
+.confirm-hover text {
+  right: 20rpx;
+}
+
+.loading {
+  z-index: 10;
+  background: rgba(102, 102, 102, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tip {
+  text-align: center;  
+  width: 80%;
+  display: inline-block;
+  background: #fff;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.suretip {
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #90CFF0;
+  color: #fff;
+}
+.head {
+  margin: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #9d9d9d;
+  color: #9d9d9d;
+}
+.words {
+  margin: 80rpx 0;
+  font-size: 38rpx;
+  padding: 0 30rpx;
+  white-space: pre-wrap;
+  line-height: 60rpx;
+}

@@ -1,0 +1,59 @@
+<!--pages/components/alldata/alldata.wxml-->
+<view class="container">
+  <view class="title">
+  </view>
+  <view class="total">
+    <image src="{{userInfo.avatarUrl}}" class="userinfo-avatar"></image>
+    <view class="nickName">{{moment}}好，{{userInfo.nickName}}</view>
+    <view class="sumDays">
+      <text>连续天数: {{keepDays_length}}，</text>
+      <text>累计天数: {{logs_length}}</text>
+    </view>
+  </view>
+  <view class="calendar">
+    <view class="date">
+      <text>{{yearMonth}}</text>
+      <view class="icon">
+        <icon class="iconfont icon-xing" style="color: #acebb9"></icon>
+        <icon class="iconfont icon-xing" style="color: #83e196"></icon>
+        <icon class="iconfont icon-xing" style="color: #30ce50"></icon>
+        <icon class="iconfont icon-xing" style="color: #26a540"></icon>
+      </view>
+    </view>
+    <view class="week">
+      <view class="zero weekdays">
+        <view>日</view>      
+        <view>一</view>
+        <view>二</view>
+        <view>三</view>
+        <view>四</view>
+        <view>五</view>
+        <view>六</view>
+      </view>
+      <view class="first weekdays" wx:for="{{calendar}}">
+        <view wx:for="{{item}}" wx:for-item="itemName">
+        <text wx:if="{{!itemName.color}}">{{itemName.day}}</text>
+        <icon class="iconfont icon-xing star" wx:if="{{itemName.color}}" style="color: {{itemName.color}}"/>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="sugarStatic">
+    <view class="progress-box" wx:for="{{progress}}">
+      <view class="sugar">
+        <view class="sugarName">{{item.name}}</view>
+        <view class="icon-box">
+          <icon class="iconfont icon-huo fire" wx:for="{{item.icon}}" wx:for-item="child" style="{{'color:'+child}}"/>
+        </view>
+      </view>
+       <progress percent="{{item.percent}}" active stroke-width="5" activeColor="{{item.color}}"/> 
+    </view>
+    <view class="noProgress" wx:if="{{!sugars.length}}">
+      加油，你是最棒的！
+    </view>
+  </view>
+  <view class="footer" >
+    <image src="../../../image/home.png" class="home"></image>
+  <text bindtap="backHome">回到首页</text>
+  </view>
+</view>
